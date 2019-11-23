@@ -1,0 +1,49 @@
+{
+  "particles": {
+    "number": {
+      "value": 500
+    },
+    "color": {
+      "value": "#fff"
+    },
+    "shape": {
+      "type": "image",
+      "stroke": {
+        "width": 1,
+        "color": "#fff"
+      },
+      "image": {
+        "src": "https://cdn3.iconfinder.com/data/icons/christmas-cheer/128/snowflake-512.png"
+      }
+    },
+    "opacity": {
+      "value": 0.5,
+      "random": true,
+      "anim": {
+        "enable": true,
+        "speed": 4
+      }
+    },
+    "size": {
+      "value": 20
+    }
+  },
+  "interactivity": {
+    "events": {
+      "onhover": {
+        "enable": true,
+        "mode": "repulse"
+      },
+      "onclick": {
+        "enable": true,
+        "mode": "push"
+      }
+    },
+    "modes": {
+      "repulse": {
+        "distance": 40,
+        "duration": 0.4
+      }
+    }
+  }
+}
