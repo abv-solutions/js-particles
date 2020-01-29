@@ -1,7 +1,13 @@
+body {
+  margin: 0;
+  overflow: hidden;
+}
+
 * {
   margin: 0;
   padding: 0;
 }
+
 #particles-js {
   background: firebrick;
   height: 100vh;
